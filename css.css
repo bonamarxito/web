@@ -1,1 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 600px; 
+    border: 2px solid #ccc; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px; 
+}
+
+aside {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.barra-busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.barra-busqueda input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.seccion {
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contenido {
+    display: none;
+}
 
