@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barra de Busqueda</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pagina web</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+<div class="container">
+    <nav>Navbar
+        <input type="search">
+        <button type="submit">Enviar</button>
+    </nav>
+    <main>Main
+    </main>
+    <div id="sidebar">Sidebar</div>
+    
 
-    <div class="contenedor">
-        <aside>
-        
-            <div class="seccion" onclick="mostrarContenido('seccion1')">Sección 1</div>
-            <div class="contenido" id="seccion1">
-                <p>Contingut d ela seccio 1</p>
-            </div>
+    <div id="content4">
+        <article id="ar1">
+            <h1>Mess</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
 
-            <div class="seccion" onclick="mostrarContenido('seccion2')">Sección 2</div>
-            <div class="contenido" id="seccion2">
-                <p>Contenido de la seccio</p 2>
-            </div>
-        </aside>
+        <article id="ar2">
+            <h1>Ronaldo</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
 
-        <div class="barra-busqueda">
-            
-            <input type="text" placeholder="Buscar...">
-        
-        </div>
+        <article id="ar3">
+            <h1>mdksms</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
     </div>
 
-    <script src="java.js"></script>
+    
+</div>
 </body>
 </html>
