@@ -52,28 +52,29 @@ footer {
 #content4 {
     background-color: lightseagreen;
     grid-area: content4;
+  
 }
 
-#ar1 {
-    background-color: lightpink;
-    width: 40vh;
-    height: 40vh;
-    margin: 2vh;
+article {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 0px;
+    margin: 0;
+    
+   
 }
 
-#ar2 {
-    background-color: lightpink;
-    width: 40vh;
-    height: 40vh;
-    margin-top: -43vh;
-    margin-left: 50vh;
 
+section {
+    background-color: white;
+    padding: 20px ;
+    max-width: 200px;
+    display: flex;
+    display: inline-block;
+    margin: 10px;
+   
+    
 }
-
-#ar3 {
-    background-color: lightpink;
-    width: 40vh;
-    height: 40vh;
-    margin-top: -43vh;
-    margin-left: 94vh;
+img {
+    max-width: 150px;
 }
